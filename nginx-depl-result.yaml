@@ -60,3 +60,5 @@ status:
   readyReplicas: 1
   replicas: 1
   updatedReplicas: 1
+
+  node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
